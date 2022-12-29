@@ -1,4 +1,7 @@
 # Bomb3rSMS
 
 <h1 align="center"> Simple SMS bomber (BETA) </h1>
-<h3> В данный момент работате только в Linux, у Вас должен быть обязательно установлен <b style="color: orange">Firefox</b> по пути <b style="color: blue">/usr/bin/firefox</b>
+<h3> В данный момент работате только в Linux, у Вас должен быть обязательно установлен Firefox по пути /usr/bin/firefox </h3>
+<h2> О проекте: данный проект предлагает массовые расслыки СПАМ СМС на заданный номер телефона <h2>
+<h3> Начать работу: </h3>
+<h2> $python main.py -n 9000000000 </h2>
