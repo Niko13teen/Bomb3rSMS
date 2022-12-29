@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 options = webdriver.FirefoxOptions()
-#options.add_argument('--headless')
+options.add_argument('--headless')
 
 driver = webdriver.Firefox(options=options)
 
@@ -99,7 +99,7 @@ def zarubas_service(number: int):
 def circle_function(func):
 	def wrapper(*args):
 		i = 0
-		while i <= 1:
+		while i <= 5:
 			func(*args)
 			i += 1
 	return wrapper
