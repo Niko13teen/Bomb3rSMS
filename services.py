@@ -118,6 +118,13 @@ def youdo_service(number: int):
 	phone_form.send_keys(f"+7{number}")
 	phone_form.send_keys(Keys.RETURN)
 
+def yarus_service(number: int):
+	driver.get('https://yarus.ru/auth')
+	driver.implicitly_wait(5)	
+	phone_form = driver.find_element(By.CLASS_NAME, 'common-input__field')
+	phone_form.send_keys(number)
+	pre = driver.find_element(By.CLASS_NAME, 'base-checkbox__enable-icon').click()
+	btn = driver.find_element(By.CLASS_NAME, 'auth-screen-entry__button').click()
 	
 
 
