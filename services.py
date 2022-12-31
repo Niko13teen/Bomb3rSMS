@@ -6,7 +6,7 @@ from time import sleep
 options = webdriver.FirefoxOptions()
 options.add_argument('--headless')
 
-driver = webdriver.Firefox(options=options)
+driver = webdriver.Firefox(executable_path="/driver/geckodriver", options=options)
 
 def youla_service(number: int):
 	driver.get('https://connect.vk.com/auth?app_id=7733222&v=0.0.2&redirect_uri=https%3A%2F%2Fyoula.ru%2F&uuid=mOBWhWIJGV0Lve-fVl-5l&redirect_state=vk-connect-auth-redirect&app_settings=eyJ2a2NfYmVoYXZpb3IiOiJ3aXRob3V0X3Bob25lIiwic2VydmljZV9ncm91cHMiOnsiZnVsbF9hdXRoX3ZpYV92a2Nvbm5lY3QiOiJleHAifSwiZXh0ZXJuYWxfZGV2aWNlX2lkIjoiNjM5OWU1YmRiYTEyYSJ9')
