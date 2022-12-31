@@ -16,6 +16,7 @@ def main(number: int):
 		services.magnit_service(number)
 		services.cg_service(number)
 		services.smotr_service(number)
+		services.zd_apteka(number)
 	except Exception as Error:	
 		pass
 
