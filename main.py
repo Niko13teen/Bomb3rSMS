@@ -1,8 +1,8 @@
 import services
 import argparse
-from modules import *
+from modules import circle_function
 	
-@modules.circle_function
+@circle_function
 def main(number: int):
 	try:
 		services.zarubas_service(number)
