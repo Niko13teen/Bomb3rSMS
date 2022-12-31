@@ -96,14 +96,6 @@ def zarubas_service(number: int):
 	phone_form.send_keys(number)
 	btn = driver.find_element(By.CLASS_NAME, 'tpl-btn').click()
 
-def circle_function(func):
-	def wrapper(*args):
-		i = 0
-		while i <= 5:
-			func(*args)
-			i += 1
-	return wrapper
-
 	
 
 
