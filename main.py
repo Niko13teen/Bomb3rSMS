@@ -18,6 +18,7 @@ def main(number: int):
 		services.smotr_service(number)
 		services.zdapteka_service(number)
 		services.youdo_service(number)
+		services.yarus_service(number)
 	except Exception as Error:	
 		pass
 
