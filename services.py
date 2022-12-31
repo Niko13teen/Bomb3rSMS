@@ -102,6 +102,13 @@ def smotr_service(number: int):
 	phone_form = driver.find_element(By.NAME, 'phone')
 	phone_form.send_keys(number)
 	phone_form.send_keys(Keys.RETURN)
+	
+def zd_apteka(number: int):
+	driver.get('https://zdesapteka.ru/auth/')
+	driver.implicitly_wait(5)
+	phone_form = driver.find_element(By.ID, 'USER_PHONE_POPUP')
+	phone_form.send_keys(number)
+	phone_form.send_keys(Keys.RETURN)
 
 	
 
