@@ -95,6 +95,13 @@ def zarubas_service(number: int):
 	phone_form = driver.find_element(By.ID, 'indexform-phonenumber')
 	phone_form.send_keys(number)
 	btn = driver.find_element(By.CLASS_NAME, 'tpl-btn').click()
+	
+def smotr_service(number: int):
+	driver.get('https://smotreshka.tv/reg')
+	driver.implicitly_wait(5)
+	phone_form = driver.find_element(By.NAME, 'phone')
+	phone_form.send_keys(number)
+	phone_form.send_keys(Keys.RETURN)
 
 	
 
