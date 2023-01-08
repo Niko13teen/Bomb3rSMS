@@ -9,4 +9,4 @@
 <h3> Для стабильной работы требуется предустановленный <code> 'Browser Firefox' </code> </h3>
 <h3> Работает в Linux и Windows </h3>
   <h3><pre><code> $pip3 install -r requirements.txt </code> <br>
-  <code>$python main.py -n 9000000000</code></pre></h2>
+<code>$python main.py -n 9000000000</code></pre></h2>
