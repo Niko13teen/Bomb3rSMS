@@ -8,5 +8,5 @@
 <h3> О проекте: данный проект предлагает массовые расслыки СПАМ СМС на заданный номер телефона, используется формат RU <h3>
 <h3> Для стабильной работы требуется предустановленный <code> 'Browser Firefox' </code> </h3>
 <h3> Работает в Linux и Windows </h3>
-  <h3> Начать работу: <code> $pip3 install -r requirements.txt </code> <br>
+  <h3> Начать работу:<br> <code> $pip3 install -r requirements.txt </code> <br>
   <code> $python main.py -n 9000000000 </code> </h2>
